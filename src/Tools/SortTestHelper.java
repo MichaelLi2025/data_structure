@@ -36,8 +36,10 @@ public class SortTestHelper {
     public static boolean isSorted(Comparable[] arr){
 
         for( int i = 0 ; i < arr.length - 1 ; i ++ )
-            if( arr[i].compareTo(arr[i+1]) > 0 )
+            if( arr[i].compareTo(arr[i+1]) > 0 ) {
+                System.out.println(i);
                 return false;
+            }
         return true;
     }
 
@@ -60,7 +62,7 @@ public class SortTestHelper {
 
             assert isSorted( arr );
 
-            System.out.println( sortClass.getSimpleName()+ " : " + (endTime-startTime) + "ms" );
+            System.out.println( sortClass.getSimpleName()+ " : " +sortMethodName+ " : " + (endTime-startTime) + "ms" );
         }
         catch(Exception e){
             e.printStackTrace();
