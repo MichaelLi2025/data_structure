@@ -1,10 +1,8 @@
-package sorting_basic;
+package sorting_1_basic;
 
-import Module.Student;
 import Tools.SortTestHelper;
 
 import java.util.Arrays;
-import java.util.ConcurrentModificationException;
 
 public class BasicSort {
     // 我们的算法类不允许产生任何实例
@@ -184,22 +182,22 @@ public class BasicSort {
         Integer[] ty6 = Arrays.copyOf(ty1,ty1.length);
         Integer[] ty7 = Arrays.copyOf(ty1,ty1.length);
         Integer[] ty8 = Arrays.copyOf(ty1,ty1.length);
-        SortTestHelper.testSort("sorting_basic.BasicSort","Selection_sort_basic",ty1);
-        System.out.println(SortTestHelper.isSorted(ty1));
-        SortTestHelper.testSort("sorting_basic.BasicSort","Selection_sort_optimize",ty2);
-        System.out.println(SortTestHelper.isSorted(ty2));
-        SortTestHelper.testSort("sorting_basic.BasicSort","Insertion_sort_basic",ty3);
-        System.out.println(SortTestHelper.isSorted(ty3));
+//        SortTestHelper.testSort("sorting_basic.BasicSort","Selection_sort_basic",ty1);
+//        System.out.println(SortTestHelper.isSorted(ty1));
+//        SortTestHelper.testSort("sorting_basic.BasicSort","Selection_sort_optimize",ty2);
+//        System.out.println(SortTestHelper.isSorted(ty2));
+//        SortTestHelper.testSort("sorting_basic.BasicSort","Insertion_sort_basic",ty3);
+//        System.out.println(SortTestHelper.isSorted(ty3));
         SortTestHelper.testSort("sorting_basic.BasicSort","Insertion_sort_optimize",ty4);
         System.out.println(SortTestHelper.isSorted(ty4));
-        SortTestHelper.testSort("sorting_basic.BasicSort","Bubble_sort_basic",ty5);
-        System.out.println(SortTestHelper.isSorted(ty5));
-        SortTestHelper.testSort("sorting_basic.BasicSort","Bubble_sort_optimize1",ty6);
-        System.out.println(SortTestHelper.isSorted(ty6));
-        SortTestHelper.testSort("sorting_basic.BasicSort","Bubble_sort_optimize2",ty7);
-        System.out.println(SortTestHelper.isSorted(ty7));
-        SortTestHelper.testSort("sorting_basic.BasicSort","Bubble_sort_optimize3",ty8);
-        System.out.println(SortTestHelper.isSorted(ty8));
+//        SortTestHelper.testSort("sorting_basic.BasicSort","Bubble_sort_basic",ty5);
+//        System.out.println(SortTestHelper.isSorted(ty5));
+//        SortTestHelper.testSort("sorting_basic.BasicSort","Bubble_sort_optimize1",ty6);
+//        System.out.println(SortTestHelper.isSorted(ty6));
+//        SortTestHelper.testSort("sorting_basic.BasicSort","Bubble_sort_optimize2",ty7);
+//        System.out.println(SortTestHelper.isSorted(ty7));
+//        SortTestHelper.testSort("sorting_basic.BasicSort","Bubble_sort_optimize3",ty8);
+//        System.out.println(SortTestHelper.isSorted(ty8));
 
     }
 }
